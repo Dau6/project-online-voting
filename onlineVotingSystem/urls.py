@@ -17,7 +17,7 @@ from django.conf import settings
 
 # The static module is used to import the static files from the settings.py file
 from django.conf.urls.static import static
-
+from poll.views import index
 
 # The urlpatterns list is used to store the url patterns for the application
 urlpatterns = [
@@ -33,5 +33,8 @@ urlpatterns = [
     path('result/', views.resultView, name='result'),
     path('changepass/', views.changePasswordView, name='changepass'),
     path('editprofile/', views.editProfileView, name='editprofile'),
+    path('',index,name="index"),
+    
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+ 
