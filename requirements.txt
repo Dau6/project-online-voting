@@ -5,8 +5,5 @@ Pillow
 django-renderpdf
 requests
 django-jazzmin
-<<<<<<< HEAD
 django-widget-tweaks
-=======
 psycopg2 
->>>>>>> 3e0464d175598c5ef37e540e749e4763c1333ac1
