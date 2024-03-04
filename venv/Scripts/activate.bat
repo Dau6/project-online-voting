@@ -9,6 +9,7 @@ if defined _OLD_CODEPAGE (
 )
 
 set VIRTUAL_ENV=C:\Users\USER\project-online-voting\venv
+set VIRTUAL_ENV=C:\Users\user\Desktop\project-online-voting\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

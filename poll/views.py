@@ -84,6 +84,7 @@ def loginView(request):
         # The passw variable is used to store the password entered by the user
         usern = request.POST.get('username')
         passw = request.POST.get('password')
+        
 
         # The user variable is used to store the user object if the user is authenticated
         user = authenticate(request, username=usern, password=passw)
@@ -237,3 +238,5 @@ def editProfileView(request):
 
     # The render function is used to render the edit profile page
     return render(request, "poll/edit_profile.html", {'form':form})
+def index(request):
+    return render(request, "index.html")
