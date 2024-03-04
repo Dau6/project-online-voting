@@ -85,10 +85,10 @@ DATABASES = {
     # }
     
        'default': {
-       'ENGINE': 'django.db.backends.postgresql',
+       'ENGINE': 'django.db.backends.postgresql_psycopg2',
        'NAME': 'voting',
        'USER': 'zainab',
-       'PASSWORD': '123',
+       'PASSWORD': 'zainab',
        'HOST': 'localhost',
        'PORT': '5432',
    }
