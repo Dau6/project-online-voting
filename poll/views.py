@@ -1,4 +1,3 @@
-
 # Importing the required modules
 
 # The render module is used to render the html pages, 
